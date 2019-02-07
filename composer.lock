@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3957be297c62a0223782af47ff060cc0",
+    "content-hash": "9749f384ab059ad4d9a9774b4c48434c",
     "packages": [
         {
             "name": "jeremeamia/SuperClosure",
@@ -63,6 +63,42 @@
                 "tokenizer"
             ],
             "time": "2018-03-21T22:21:57+00:00"
+        },
+        {
+            "name": "mediaburst/clockworksms",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mediaburst/clockwork-php.git",
+                "reference": "5a5e49406614dcb49c0ff3dea2a96a81cbc32c38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mediaburst/clockwork-php/zipball/5a5e49406614dcb49c0ff3dea2a96a81cbc32c38",
+                "reference": "5a5e49406614dcb49c0ff3dea2a96a81cbc32c38",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mediaburst\\ClockworkSMS\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Wise",
+                    "email": "andy@mediaburst.co.uk"
+                }
+            ],
+            "description": "ClockworkSMS, International SMS API",
+            "keywords": [
+                "sms"
+            ],
+            "time": "2017-11-30T10:53:58+00:00"
         },
         {
             "name": "mnapoli/silly",

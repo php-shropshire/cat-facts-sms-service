@@ -6,6 +6,10 @@
         {
             "name": "Mike Bywater",
             "email": "mike.j.bywater@gmail.com"
+        },
+        {
+            "name": "Connor Graham",
+            "email": "me@cg0.uk"
         }
     ],
     "autoload": {
@@ -14,6 +18,7 @@
         }
     },
     "require": {
-        "mnapoli/silly-php-di": "^1.2"
+        "mnapoli/silly-php-di": "^1.2",
+        "mediaburst/clockworksms": "2.0.*"
     }
 }
