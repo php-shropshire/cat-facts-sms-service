@@ -8,6 +8,11 @@
             "email": "mike.j.bywater@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
     "require": {
         "mnapoli/silly-php-di": "^1.2"
     }
