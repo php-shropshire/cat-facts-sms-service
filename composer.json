@@ -1,0 +1,14 @@
+{
+    "name": "php-shrops/sms-service",
+    "description": "Example SMS handling service for meetup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Bywater",
+            "email": "mike.j.bywater@gmail.com"
+        }
+    ],
+    "require": {
+        "mnapoli/silly-php-di": "^1.2"
+    }
+}
